@@ -1,0 +1,155 @@
+body{
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.clear{
+  clear: both;
+}
+
+  header{
+    background-color: #130f0f;
+  }
+
+    .welcome{
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      padding: 15px;
+    }
+
+    .welcome h2{
+      font-size: 25px;
+      color: #bbb;
+    }
+
+    main{}
+
+      #passwordForm{
+        width: 300px;
+        margin: 25px auto 25px auto;
+        min-height: 80px;
+      }
+
+      input[type=password]{
+        font-size: 25px;
+        width: 300px;
+        padding: 2px;
+        display: block;
+        box-sizing: border-box;
+        background-color: #130f0f;
+        color: #bbb;
+        margin-bottom: 10px;
+        border: 1px solid #333;
+        outline: none;
+        text-align: center;
+        border-radius: 10px;
+      }
+
+      input[type=button]{
+
+        width: 300px;
+        padding: 2px;
+        display: block;
+        background-color: #bbb;
+        font-size: 25px;
+        cursor: pointer;
+        letter-spacing: 3px;
+        color: #130f0f;
+        outline: none;
+        border: none;
+        border: 1px solid #333;
+        border-radius: 10px;
+      }
+
+      input[type=button]:hover{
+        background-color: #999;
+      }
+
+      .main{
+        margin-top: 60px;
+      }
+
+        .gameContainer{
+          width: 1000px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+          #password{
+            color: white;
+            font-size: 30px;
+            text-align: center;
+            margin-bottom: 30px;
+            letter-spacing: 3px;
+            font-family: monospace;
+            min-height: 40px;
+          }
+
+          figure{
+            margin: 0;
+          }
+
+            #picture{
+              float: left;
+              width: 500px;
+              text-align: center;
+            }
+
+          #keyboard{
+            float: left;
+            width: 500px;
+            text-align: center;
+            margin-top: 10px;
+          }
+
+            .letter{
+              display: inline-block;
+              min-width: 40px;
+              padding: 8px;
+              margin: 5px;
+              border: 2px solid #121212;
+              border-radius: 10px;
+              text-align: center;
+              color: #bbb;
+              font-size: 20px;
+              font-weight: 700;
+            }
+
+            .letter:hover{
+              background-color: #121212;
+              cursor: pointer;
+            }
+
+            .colorGreen,
+            .colorGreen:hover{
+              background-color: #066502;
+              cursor: default;
+              border: 2px solid #066502;
+            }
+
+            .colorRed,
+            .colorRed:hover{
+              background-color: #6d0404;
+              cursor: default;
+              border: 2px solid #6d0404;
+            }
+
+            .showResult{
+              color: #bbb;
+              font-size: 30px;
+              text-align: center;
+              margin-top: 70px;
+            }
+
+            .showResult a{
+              color: red;
+              text-decoration: none;
+            }
